@@ -1,0 +1,181 @@
+2024-02-08 16:34:37,343 INFO    StreamThr :3280 [internal.py:wandb_internal():86] W&B internal server running at pid: 3280, started at: 2024-02-08 16:34:37.343621
+2024-02-08 16:34:37,343 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: status
+2024-02-08 16:34:37,375 INFO    WriterThread:3280 [datastore.py:open_for_write():87] open: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\run-5qpxz81o.wandb
+2024-02-08 16:34:37,375 DEBUG   SenderThread:3280 [sender.py:send():382] send: header
+2024-02-08 16:34:37,423 DEBUG   SenderThread:3280 [sender.py:send():382] send: run
+2024-02-08 16:34:38,291 INFO    SenderThread:3280 [dir_watcher.py:__init__():211] watching files in: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files
+2024-02-08 16:34:38,291 INFO    SenderThread:3280 [sender.py:_start_run_threads():1136] run started: 5qpxz81o with start time 1707406477.34362
+2024-02-08 16:34:38,356 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: check_version
+2024-02-08 16:34:38,356 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: check_version
+2024-02-08 16:34:38,942 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: run_start
+2024-02-08 16:34:39,038 DEBUG   HandlerThread:3280 [system_info.py:__init__():27] System info init
+2024-02-08 16:34:39,038 DEBUG   HandlerThread:3280 [system_info.py:__init__():42] System info init done
+2024-02-08 16:34:39,038 INFO    HandlerThread:3280 [system_monitor.py:start():194] Starting system monitor
+2024-02-08 16:34:39,040 INFO    SystemMonitor:3280 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-08 16:34:39,040 INFO    HandlerThread:3280 [system_monitor.py:probe():214] Collecting system info
+2024-02-08 16:34:39,054 INFO    SystemMonitor:3280 [interfaces.py:start():190] Started cpu monitoring
+2024-02-08 16:34:39,054 INFO    SystemMonitor:3280 [interfaces.py:start():190] Started disk monitoring
+2024-02-08 16:34:39,054 INFO    SystemMonitor:3280 [interfaces.py:start():190] Started gpu monitoring
+2024-02-08 16:34:39,070 INFO    SystemMonitor:3280 [interfaces.py:start():190] Started memory monitoring
+2024-02-08 16:34:39,110 INFO    SystemMonitor:3280 [interfaces.py:start():190] Started network monitoring
+2024-02-08 16:34:39,126 DEBUG   HandlerThread:3280 [system_info.py:probe():151] Probing system
+2024-02-08 16:34:39,134 DEBUG   HandlerThread:3280 [system_info.py:_probe_git():136] Probing git
+2024-02-08 16:34:39,384 DEBUG   HandlerThread:3280 [system_info.py:_probe_git():144] Probing git done
+2024-02-08 16:34:39,384 DEBUG   HandlerThread:3280 [system_info.py:probe():199] Probing system done
+2024-02-08 16:34:39,384 DEBUG   HandlerThread:3280 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.7', 'heartbeatAt': '2024-02-08T15:34:39.126692', 'startedAt': '2024-02-08T15:34:37.254608', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\emilo\\Skrivebord\\GDS\\DevOps\\GDS\\wandb_sweep.py', 'codePathLocal': 'wandb_sweep.py', 'codePath': 'wandb_sweep.py', 'git': {'remote': 'https://github.com/emiloerum/GDS.git', 'commit': '3d61377d4085bd8e8963bdcf970fbaa12e48406b'}, 'email': 'emil.oerum@hotmail.com', 'root': 'C:/Users/emilo/Skrivebord/GDS/DevOps/GDS', 'host': 'LAPTOP-37EDQ0ER', 'username': 'emilo', 'executable': 'C:\\Users\\emilo\\miniconda3\\envs\\my_environment\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 475.69237899780273, 'used': 255.05235290527344}}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.870895385742188}}
+2024-02-08 16:34:39,384 INFO    HandlerThread:3280 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-08 16:34:39,384 INFO    HandlerThread:3280 [system_monitor.py:probe():227] Publishing system info
+2024-02-08 16:34:39,384 DEBUG   HandlerThread:3280 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-08 16:34:40,305 INFO    Thread-17 :3280 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\conda-environment.yaml
+2024-02-08 16:34:41,817 DEBUG   HandlerThread:3280 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-08 16:34:41,817 INFO    HandlerThread:3280 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-08 16:34:41,817 DEBUG   SenderThread:3280 [sender.py:send():382] send: files
+2024-02-08 16:34:41,825 INFO    SenderThread:3280 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-08 16:34:41,833 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-08 16:34:41,833 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: python_packages
+2024-02-08 16:34:41,833 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-08 16:34:41,833 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-08 16:34:41,833 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: stop_status
+2024-02-08 16:34:41,938 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-08 16:34:42,306 INFO    Thread-17 :3280 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\conda-environment.yaml
+2024-02-08 16:34:42,306 INFO    Thread-17 :3280 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\wandb-metadata.json
+2024-02-08 16:34:42,306 INFO    Thread-17 :3280 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\requirements.txt
+2024-02-08 16:34:42,418 DEBUG   SenderThread:3280 [sender.py:send():382] send: telemetry
+2024-02-08 16:34:42,418 DEBUG   SenderThread:3280 [sender.py:send():382] send: history
+2024-02-08 16:34:42,418 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: summary_record
+2024-02-08 16:34:42,418 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: status_report
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-08 16:34:42,426 DEBUG   SenderThread:3280 [sender.py:send():382] send: telemetry
+2024-02-08 16:34:42,426 DEBUG   SenderThread:3280 [sender.py:send():382] send: exit
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:send_exit():589] handling exit code: 0
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:send_exit():591] handling runtime: 3
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:send_exit():597] send defer
+2024-02-08 16:34:42,426 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,426 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-08 16:34:42,426 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 1
+2024-02-08 16:34:42,426 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,426 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-08 16:34:42,426 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-08 16:34:42,426 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 2
+2024-02-08 16:34:42,426 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,426 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-08 16:34:42,426 INFO    HandlerThread:3280 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-08 16:34:42,434 DEBUG   SystemMonitor:3280 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-08 16:34:42,434 DEBUG   SystemMonitor:3280 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-08 16:34:42,434 DEBUG   SystemMonitor:3280 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-08 16:34:42,434 INFO    HandlerThread:3280 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-08 16:34:42,434 INFO    HandlerThread:3280 [interfaces.py:finish():202] Joined disk monitor
+2024-02-08 16:34:42,482 INFO    HandlerThread:3280 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-08 16:34:42,482 INFO    HandlerThread:3280 [interfaces.py:finish():202] Joined memory monitor
+2024-02-08 16:34:42,482 INFO    HandlerThread:3280 [interfaces.py:finish():202] Joined network monitor
+2024-02-08 16:34:42,490 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 3
+2024-02-08 16:34:42,490 DEBUG   SenderThread:3280 [sender.py:send():382] send: stats
+2024-02-08 16:34:42,490 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,490 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-08 16:34:42,490 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 4
+2024-02-08 16:34:42,490 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,490 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-08 16:34:42,490 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 5
+2024-02-08 16:34:42,490 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,490 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-08 16:34:42,490 DEBUG   SenderThread:3280 [sender.py:send():382] send: summary
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-08 16:34:42,490 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 6
+2024-02-08 16:34:42,490 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,490 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-08 16:34:42,490 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,490 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-08 16:34:42,490 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: status_report
+2024-02-08 16:34:42,674 INFO    wandb-upload_0:3280 [upload_job.py:push():131] Uploaded file C:\Users\emilo\AppData\Local\Temp\tmp8f6v4k3wwandb\8nhh508t-wandb-metadata.json
+2024-02-08 16:34:42,682 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 7
+2024-02-08 16:34:42,682 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,682 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-08 16:34:42,682 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,682 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-08 16:34:42,682 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 8
+2024-02-08 16:34:42,682 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,682 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-08 16:34:42,682 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,682 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-08 16:34:42,682 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 9
+2024-02-08 16:34:42,682 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:42,682 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-08 16:34:42,682 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:42,682 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-08 16:34:42,682 INFO    SenderThread:3280 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-08 16:34:42,948 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-08 16:34:43,318 INFO    SenderThread:3280 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\config.yaml
+2024-02-08 16:34:43,318 INFO    SenderThread:3280 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\wandb-summary.json
+2024-02-08 16:34:43,318 INFO    SenderThread:3280 [dir_watcher.py:finish():388] scan: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files
+2024-02-08 16:34:43,326 INFO    SenderThread:3280 [dir_watcher.py:finish():402] scan save: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\conda-environment.yaml conda-environment.yaml
+2024-02-08 16:34:43,326 INFO    SenderThread:3280 [dir_watcher.py:finish():402] scan save: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\config.yaml config.yaml
+2024-02-08 16:34:43,336 INFO    SenderThread:3280 [dir_watcher.py:finish():402] scan save: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\requirements.txt requirements.txt
+2024-02-08 16:34:43,367 INFO    SenderThread:3280 [dir_watcher.py:finish():402] scan save: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\wandb-metadata.json wandb-metadata.json
+2024-02-08 16:34:43,367 INFO    SenderThread:3280 [dir_watcher.py:finish():402] scan save: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\wandb-summary.json wandb-summary.json
+2024-02-08 16:34:43,375 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 10
+2024-02-08 16:34:43,375 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: poll_exit
+2024-02-08 16:34:43,383 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:43,383 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-08 16:34:43,391 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:43,391 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-08 16:34:43,391 INFO    SenderThread:3280 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-08 16:34:43,799 INFO    wandb-upload_0:3280 [upload_job.py:push():131] Uploaded file C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\conda-environment.yaml
+2024-02-08 16:34:43,951 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-08 16:34:43,951 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: poll_exit
+2024-02-08 16:34:44,192 INFO    wandb-upload_1:3280 [upload_job.py:push():131] Uploaded file C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\config.yaml
+2024-02-08 16:34:44,336 INFO    wandb-upload_2:3280 [upload_job.py:push():131] Uploaded file C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\requirements.txt
+2024-02-08 16:34:44,723 INFO    wandb-upload_3:3280 [upload_job.py:push():131] Uploaded file C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\files\wandb-summary.json
+2024-02-08 16:34:44,932 INFO    Thread-16 (_thread_body):3280 [sender.py:transition_state():617] send defer: 11
+2024-02-08 16:34:44,932 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:44,932 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-08 16:34:44,932 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:44,932 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-08 16:34:44,932 INFO    SenderThread:3280 [file_pusher.py:join():178] waiting for file pusher
+2024-02-08 16:34:44,932 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 12
+2024-02-08 16:34:44,932 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:44,932 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-08 16:34:44,932 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:44,932 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-08 16:34:44,932 INFO    SenderThread:3280 [file_stream.py:finish():595] file stream finish called
+2024-02-08 16:34:44,956 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-08 16:34:45,341 INFO    SenderThread:3280 [file_stream.py:finish():599] file stream finish is done
+2024-02-08 16:34:45,341 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 13
+2024-02-08 16:34:45,341 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: poll_exit
+2024-02-08 16:34:45,341 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:45,341 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-08 16:34:45,347 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:45,347 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-08 16:34:45,347 INFO    SenderThread:3280 [sender.py:transition_state():617] send defer: 14
+2024-02-08 16:34:45,347 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: defer
+2024-02-08 16:34:45,347 INFO    HandlerThread:3280 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-08 16:34:45,350 DEBUG   SenderThread:3280 [sender.py:send():382] send: final
+2024-02-08 16:34:45,350 DEBUG   SenderThread:3280 [sender.py:send():382] send: footer
+2024-02-08 16:34:45,350 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: defer
+2024-02-08 16:34:45,350 INFO    SenderThread:3280 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-08 16:34:45,350 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-08 16:34:45,350 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: poll_exit
+2024-02-08 16:34:45,358 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-08 16:34:45,358 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: server_info
+2024-02-08 16:34:45,358 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-08 16:34:45,358 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-08 16:34:45,358 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: job_info
+2024-02-08 16:34:45,358 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: server_info
+2024-02-08 16:34:45,548 DEBUG   SenderThread:3280 [sender.py:send_request():409] send_request: job_info
+2024-02-08 16:34:45,550 DEBUG   HandlerThread:3280 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-08 16:34:45,550 INFO    HandlerThread:3280 [handler.py:finish():869] shutting down handler
+2024-02-08 16:34:46,371 INFO    WriterThread:3280 [datastore.py:close():296] close: C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163437-5qpxz81o\run-5qpxz81o.wandb
+2024-02-08 16:34:46,554 INFO    SenderThread:3280 [sender.py:finish():1572] shutting down sender
+2024-02-08 16:34:46,554 INFO    SenderThread:3280 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-08 16:34:46,554 INFO    SenderThread:3280 [file_pusher.py:join():178] waiting for file pusher

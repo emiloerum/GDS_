@@ -1,0 +1,60 @@
+wandb_version: 1
+
+model:
+  desc: null
+  value: LogisticRegression
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.7
+    cli_version: 0.16.3
+    framework: sklearn
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1707405647.116214
+    t:
+      1:
+      - 5
+      - 53
+      - 55
+      2:
+      - 5
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.11.7
+      5: 0.16.3
+      8:
+      - 3
+      - 5
+      10:
+      - 5
+      13: windows-amd64
+    viz:
+      class_proportions:
+        id: wandb/class_proportions/v1
+        historyFieldSettings:
+          x-axis: _step
+          key: class_proportions
+      learning_curve:
+        id: wandb/learning_curve/v1
+        historyFieldSettings:
+          x-axis: _step
+          key: learning_curve
+      roc:
+        id: wandb/roc/v1
+        historyFieldSettings:
+          x-axis: _step
+          key: roc
+      precision_recall:
+        id: wandb/pr_curve/v1
+        historyFieldSettings:
+          x-axis: _step
+          key: precision_recall
+      confusion_matrix:
+        id: wandb/confusion_matrix/v1
+        historyFieldSettings:
+          x-axis: _step
+          key: confusion_matrix

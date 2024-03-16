@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-02-08T14:50:50.415137",
+    "startedAt": "2024-02-08T14:50:48.693259",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\emilo\\Skrivebord\\GDS\\DevOps\\GDS\\wandb_script.py",
+    "codePathLocal": "wandb_script.py",
+    "codePath": "wandb_script.py",
+    "git": {
+        "remote": "https://github.com/emiloerum/GDS.git",
+        "commit": "3d61377d4085bd8e8963bdcf970fbaa12e48406b"
+    },
+    "email": "emil.oerum@hotmail.com",
+    "root": "C:/Users/emilo/Skrivebord/GDS/DevOps/GDS",
+    "host": "LAPTOP-37EDQ0ER",
+    "username": "emilo",
+    "executable": "C:\\Users\\emilo\\miniconda3\\envs\\my_environment\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 2496.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 2496.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 475.69237899780273,
+            "used": 255.03450393676758
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.870895385742188
+    }
+}

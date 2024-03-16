@@ -1,0 +1,34 @@
+2024-02-08 16:34:21,911 INFO    Thread-33 (_run_job):18304 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-08 16:34:21,914 INFO    Thread-33 (_run_job):18304 [wandb_setup.py:_flush():76] Configure stats pid to 18304
+2024-02-08 16:34:21,914 INFO    Thread-33 (_run_job):18304 [wandb_setup.py:_flush():76] Loading settings from C:\Users\emilo\.config\wandb\settings
+2024-02-08 16:34:21,914 INFO    Thread-33 (_run_job):18304 [wandb_setup.py:_flush():76] Loading settings from C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\settings
+2024-02-08 16:34:21,914 INFO    Thread-33 (_run_job):18304 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'iris-sweep', 'entity': 'grundlaeggendedatascience', 'root_dir': 'C:\\Users\\emilo\\Skrivebord\\GDS\\DevOps\\GDS', 'run_id': 'l7z3mhe0', 'sweep_param_path': 'C:\\Users\\emilo\\Skrivebord\\GDS\\DevOps\\GDS\\wandb\\sweep-9wuba9yw\\config-l7z3mhe0.yaml', 'sweep_id': '9wuba9yw'}
+2024-02-08 16:34:21,946 INFO    Thread-33 (_run_job):18304 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-08 16:34:21,946 INFO    Thread-33 (_run_job):18304 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wandb_sweep.py', 'program_abspath': 'C:\\Users\\emilo\\Skrivebord\\GDS\\DevOps\\GDS\\wandb_sweep.py', 'program': 'C:\\Users\\emilo\\Skrivebord\\GDS\\DevOps\\GDS\\wandb_sweep.py'}
+2024-02-08 16:34:21,946 INFO    Thread-33 (_run_job):18304 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163421-l7z3mhe0\logs\debug.log
+2024-02-08 16:34:21,946 INFO    Thread-33 (_run_job):18304 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\emilo\Skrivebord\GDS\DevOps\GDS\wandb\run-20240208_163421-l7z3mhe0\logs\debug-internal.log
+2024-02-08 16:34:21,946 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():566] calling init triggers
+2024-02-08 16:34:21,946 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():573] wandb.init called with sweep_config: {'n_neighbors': 7, 'p': 3, 'weights': 'distance'}
+config: {}
+2024-02-08 16:34:21,954 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():616] starting backend
+2024-02-08 16:34:21,954 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():620] setting up manager
+2024-02-08 16:34:21,978 INFO    Thread-33 (_run_job):18304 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-02-08 16:34:21,978 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():628] backend started and connected
+2024-02-08 16:34:22,034 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_config_callback():1343] config_cb None None {'n_neighbors': 7, 'p': 3, 'weights': 'distance'}
+2024-02-08 16:34:22,034 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():720] updated telemetry
+2024-02-08 16:34:22,171 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-08 16:34:23,304 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-08 16:34:23,802 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_on_init():2271] got version response 
+2024-02-08 16:34:23,802 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():804] starting run threads in backend
+2024-02-08 16:34:26,841 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-08 16:34:26,841 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-08 16:34:26,841 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-08 16:34:26,841 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-08 16:34:26,841 INFO    Thread-33 (_run_job):18304 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-08 16:34:26,937 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_finish():1970] finishing run grundlaeggendedatascience/iris-sweep/l7z3mhe0
+2024-02-08 16:34:26,937 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-08 16:34:26,937 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_restore():2193] restore
+2024-02-08 16:34:26,937 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_restore():2199] restore done
+2024-02-08 16:34:31,410 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-08 16:34:31,410 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-08 16:34:31,427 INFO    Thread-33 (_run_job):18304 [wandb_run.py:_footer_sync_info():3825] logging synced files

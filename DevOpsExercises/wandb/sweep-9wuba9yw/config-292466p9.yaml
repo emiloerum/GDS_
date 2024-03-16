@@ -1,0 +1,8 @@
+wandb_version: 1
+
+n_neighbors:
+  value: 5
+p:
+  value: 2
+weights:
+  value: uniform

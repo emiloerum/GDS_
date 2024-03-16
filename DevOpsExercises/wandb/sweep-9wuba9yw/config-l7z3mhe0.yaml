@@ -1,0 +1,8 @@
+wandb_version: 1
+
+n_neighbors:
+  value: 7
+p:
+  value: 3
+weights:
+  value: distance
